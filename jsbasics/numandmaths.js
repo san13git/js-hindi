@@ -40,3 +40,6 @@ const arr=new Array(1,2,3,4)
 const arr=myarr.join()  ->changes myarr to string & arr will be of string type
 
 //slice splice ->imp
+const myn1=myArr.slice(1,3) //start from 1 & then dont include 3 
+//in splice , the original array changes -> splice wala portion is removed from the array
+//splice manipulates the original array
