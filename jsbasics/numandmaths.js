@@ -43,3 +43,6 @@ const arr=myarr.join()  ->changes myarr to string & arr will be of string type
 const myn1=myArr.slice(1,3) //start from 1 & then dont include 3 
 //in splice , the original array changes -> splice wala portion is removed from the array
 //splice manipulates the original array
+
+//suppose i have 2 arrays a1 & a2 , when i say a1.push(a2) , i get array inside array
+//concatenate 2 or more arrays in one -> a1.concat(a2)
