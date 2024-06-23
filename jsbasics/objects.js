@@ -35,3 +35,13 @@ Object.keys(obj1) //it will give all keys of the object
 Object.values(obj1)  //it will give all the values corresponding to the key
 //if we want to check a particular propert h ya ni then use hasOwnProperty
 
+
+
+//******************object destructuring********** */
+const course={
+    name:"js learning",
+    instructor:"sanya"
+}
+const {instructor : inst}=course  //this is another syntax for object destructuring
+console.log(inst)
+
